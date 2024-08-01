@@ -1,31 +1,25 @@
 # Sudoku Game
 
-A command-line based Sudoku game written in Python.
-
-## Table of Contents
-
-- [Sudoku Game](#sudoku-game)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Commands](#commands)
-  - [Contributing](#contributing)
-  - [License](#license)
+A command-line based Sudoku game written in Python.  Backtracking algorithm generates Sudoku boards in three sizes:
+- Small (4 x 4)
+- Normal (9 x 9)
+- Big (16 x 16)
 
 ## Features
 
-- Generate random Sudoku puzzles.
-- Validate Sudoku board state.
-- Solve Sudoku puzzles using a solver algorithm.
-- Interactive command-line interface for playing the game.
+- Generate unique, random Sudoku puzzles
+- Generate and solve boards using a backtracking solver algorithm
+- Validate the board state for correctness
+- Undo moves if you make a mistake
+- Generate hints for next best position to play
+- Interactive command-line interface for playing the game
 
 ## Installation
 
 1. Clone the repository:
     ```sh
     git clone https://github.com/ParisX1/Sudoku-Game.git
-    cd sudoku-game
+    cd Sudoku-Game
     ```
 
 1. Install the dependencies (shouldn't be required):
@@ -42,7 +36,7 @@ python sudoku-game.py
 
 ## Commands
 
-`row col val`: try value val at row col (with zero indexing).
+`row col val`: Play value val at row col (with zero indexing).
 `help`: Show game commands.
 `exit`: Exit the game.
 
