@@ -1,3 +1,3 @@
 copy
-import
-import
+random
+timeit
