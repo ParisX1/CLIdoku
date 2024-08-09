@@ -36,9 +36,14 @@ python sudoku-game.py
 
 ## Commands
 
-`row col val`: Play value val at row col (with zero indexing).
+`row col val`: Play value 'val' at position 'row', 'col' (with zero indexing).
+`undo`: Undo your last move.
+`hint`: Receive a hint for the best location to play.
+`solve`: Solve and display the solved board.
+`new`: Create a new board.
 `help`: Show game commands.
-`exit`: Exit the game.
+`restart`: Restart the current board from the beginning.
+`quit`: Exit the game.
 
 ## Contributing
 
