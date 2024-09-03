@@ -1,6 +1,6 @@
-# Sudoku Game
+# CLIdoku - A CLI Sudoku Game
 
-A command-line based Sudoku game written in Python.  Backtracking algorithm generates Sudoku boards in three sizes:
+CLIdoku enables you to play Sudoku straight from your command-line interface. Generate unique boards in three sizes:
 - Small (4 x 4)
 - Normal (9 x 9)
 - Big (16 x 16)
@@ -8,8 +8,8 @@ A command-line based Sudoku game written in Python.  Backtracking algorithm gene
 ## Features
 
 - Generate unique, random Sudoku puzzles
-- Generate and solve boards using a backtracking solver algorithm
-- Validate the board state for correctness
+- Boards generated using a backtracking solver algorithm
+- Moves are validated to ensure correctness
 - Undo moves if you make a mistake
 - Generate hints for next best position to play
 - Interactive command-line interface for playing the game
