@@ -18,7 +18,7 @@ CLIdoku enables you to play Sudoku straight from your command-line interface. Ge
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/ThomasOMara/Sudoku-Game.git
+    git clone https://github.com/ThomasOMara/CLIdoku.git
     cd Sudoku-Game
     ```
 
